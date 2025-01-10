@@ -1,0 +1,40 @@
+# Python-related files
+*.pyc
+__pycache__/
+
+# Virtual environment
+myenv/
+
+# Django specific files
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Media and static files (if you don't want to track them in Git)
+media/
+static/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Test and coverage reports
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.hypothesis/
+
+# MySQL/MariaDB
+*.sql
+*.bak
